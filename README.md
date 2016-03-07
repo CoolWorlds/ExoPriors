@@ -16,13 +16,13 @@ transit_LL_penalty(case=[one of the four options outlined above], appropriate kw
 
 where the kwargs are:
 
-    -per (REQUIRED) = orbital period of transiting planet
-    -rhostar (REQUIRED) = density of host star
-    -omega (REQUIRED) = argument of periapsis
-    -e (REQUIRED) = eccentricity
-    -ror (REQUIRED UNLESS case=='geometric_only') = ratio of planet radius to stellar radius
-    -b (REQUIRED UNLESS case=='geometric_only') = impact parameter
-    -occdepth (REQUIRED IF case=='occultation') = occultation depth 
-    -blend (OPTIONAL) = blend factor = (target_star_flux + blended_source_flux)/target_star_flux (see equation 5 of Kipping & Tinetti 2010, MNRAS, 407, 2589)
+    - per (REQUIRED) = orbital period of transiting planet
+    - rhostar (REQUIRED) = density of host star
+    - omega (REQUIRED) = argument of periapsis
+    - e (REQUIRED) = eccentricity
+    - ror (REQUIRED UNLESS case=='geometric_only') = ratio of planet radius to stellar radius
+    - b (REQUIRED UNLESS case=='geometric_only') = impact parameter
+    - occdepth (REQUIRED IF case=='occultation') = occultation depth 
+    - blend (OPTIONAL) = blend factor = (target_star_flux + blended_source_flux)/target_star_flux (see equation 5 of Kipping & Tinetti 2010, MNRAS, 407, 2589)
 
 You should not need to call any of the other functions defined in ExoPriors directly.
